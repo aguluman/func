@@ -3,6 +3,6 @@
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "DOTNET-ISOLATED",
-        "StorageConnectionString": "[TEST VALUE]"
+        "StorageConnectionString": "@Microsoft.KeyVault(SecretUri=https://securevaultcae.vault.azure.net/secrets/storagecredentials/e42fb81982ee4d46874da89152d7b81f)"
     }
 }
